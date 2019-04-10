@@ -77,16 +77,16 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 /*----------------------------------------------Header-------------------------------------*/
 
-#header{position: relative; padding:20px 0;}
+#header{ padding:20px 0;}
 
-#header #hgroup{float:left; margin:20px 10px 0px 0;}
+#header #hgroup{float:none; margin:auto; text-align: center}
 #header #hgroup h1, #header #hgroup h2{font-weight:normal; text-transform:none;}
 #header #hgroup h1{font-size:36px;}
 #header #hgroup h2{font-size:13px;}
 
-#header nav{display:block; float:right; margin:20px 0 0 5px; padding:20px 0px; color:#C0BAB6; background-color:#232323; position: absolute; bottom: 50px; right: 0; border-radius: 5px}
-#header nav ul{padding:0 10px;}
-#header nav li{display:inline; margin-right:25px; text-transform:uppercase; }
+#header nav{text-align: center; display:block; float:none; margin:0px 0 0 0px; padding:20px 0px; color:#C0BAB6; background-color:#232323;  bottom: 0px; right: 0; border-radius: 5px}
+#header nav ul{padding:0 0px;}
+#header nav li{display:inline; margin-right:45px; text-transform:uppercase; }
 #header nav li.last{margin-right:0;}
 #header nav li a{color:#C0BAB6; background-color:#232323; }
 #header nav li a:hover{color:#015794; background-color:#232323;}
@@ -150,19 +150,14 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 /*----------------------------------------------Footer-------------------------------------*/
 
 #footer{padding:20px 0;}
-#footer p{margin:0; padding:0;}
+#footer p{margin:0; padding:0}
 
 /*----------------------------------------------Custom--------------------------------------*/
 
 #phone{
-    display: block;
+    display: inline;
     float: right; 
     padding:0px 0px;
     margin: 0px 0px 0px 0px;
-    font-size: 20px;
-    font-family: Georgia, "Times New Roman", Times, serif;;
-}
-#phone:hover{
-    color:#015794;
 }
 
