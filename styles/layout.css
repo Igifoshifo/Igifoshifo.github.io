@@ -137,10 +137,10 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 /* ------Right Column-----*/
 
-#container #right_column{float:right; width:280px;}
+#container #right_column{float:right; width:280px; font-size: 14px;}
 #container #right_column h2.title{margin-bottom:15px; padding-bottom:15px; border-bottom:1px solid #DEDEDE;}
 
-#container #right_column nav{display:block; width:100%;}
+#container #right_column nav{display:block; width:100%; }
 #container #right_column nav ul{margin:0; padding:0; list-style:none;}
 #container #right_column nav li{margin:0 0 3px 0; padding:0;}
 #container #right_column nav li.last{margin-bottom:0;}
