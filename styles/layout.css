@@ -8,7 +8,7 @@ Licence: <a href="https://www.os-templates.com/template-terms">Website Template 
 
 html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
 
-body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#919191; background-color:#232323;}
+body{margin:0; padding:0; font-size:15px; font-family:Georgia, "Times New Roman", Times, serif; color:#919191; background-color:#232323;}
 
 .clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
 .clear{display:block; clear:both;}
@@ -152,7 +152,7 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #footer{padding:20px 0;}
 #footer p{margin:0; padding:0}
 
-/*----------------------------------------------Custom--------------------------------------*/
+/*----------------------------------------------Custom-------------------------------------*/
 
 #phone{
     display: inline;
@@ -161,3 +161,53 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
     margin: 0px 0px 0px 0px;
 }
 
+#about{
+    overflow:auto;
+    font-size: 18px;
+    line-height:1.6em;
+    overflow-y: hidden;
+}
+
+#headerh1{
+    font-size: 22px;
+}
+
+#aboutsidepic{
+    padding: 23px 0px 0px 0px;
+}
+
+#faqhead{
+    font-size: 40px;
+}
+
+#faqbody{
+    font-size: 16px;
+    line-height: 2;
+}
+
+#servicebody{
+    font-size: 20px;
+    line-height: 2;
+}
+
+#serviceul{
+    list-style-type:square;
+    line-height: 2;
+    margin: 10px;
+    
+}
+
+#serviceul2{
+    list-style-type:disc;
+    line-height: 2;
+    margin: 10px;
+    
+}
+
+#contactspacing{
+    border-bottom:1px solid #DEDEDE;
+}
+
+#additionalcontainer{
+    border-bottom:1px solid #DEDEDE;
+}
